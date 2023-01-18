@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins","sans-serif";
+}
+.container {
+    width: 750px;
+}
+body{
+    position: relative;
+    background: rgb(57, 59, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h2{
+    text-align: center;
+}
+.container form .form-element .form-control{
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    padding:  0 8px;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    outline: none;
+}
+#password{
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    padding:  0 8px;
+    border: 1px solid wheat;
+    border-radius: 6px;
+    outline: none;
+}
+  .form-element form .button{
+    height:45px;
+    border: none;
+    color: rgb(29, 28, 28);
+    width: 100%;
+    background: rgb(202, 241, 108);
+    font-size: 17px;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-top: 13px;
+    margin-bottom: 5px;
+
+    border:2px solid rgb(201, 173, 228);
+   
+}
+
+
+.container form .form-element .button:hover{
+   color:rgb(230, 13, 132);
+   
+}
+ .container .link a{
+    color: rgb(180, 80, 80);
+    transition: 0.5s all;
+    padding-left: 5px;
+    text-decoration: underline;
+}
+
+.container .link a:hover{
+    text-decoration: underline;
+    color: rgb(111, 104, 211);
+    }
+    .container .link{
+        color: rgb(131, 184, 70);
+        text-decoration: none;
+    }
+
+   
+.flex {
+    display: inline-block;
+
+}
+
+ .form-control form i.pw-display-toggle-btn  {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+
+}
+
+.container .pw-display-toggle-btn i.fa-eye-slash {
+    display: block;
+}
+
+.container .pw-display-toggle-btn.active i.fa-eye-slash {
+    display: block;
+}
+
+.container .pw-display-toggle-btn.active i.fa-eye {
+    display: block;
+}
+
+ .form-element.pw-strength {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background: #f0f0f0;
+    display: none;
+   
+
+}
+
